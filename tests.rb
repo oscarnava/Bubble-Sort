@@ -1,5 +1,5 @@
-require "./bubble-sort"
-require "./bubble-sort-by"
+require "./bubble_sort"
+require "./bubble_sort_by"
 
 #Tests for bubble_sort
 puts "\nTests for bubble_sort"
