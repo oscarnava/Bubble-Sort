@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require './bubble_sort'
 require './bubble_sort_by'
 
@@ -20,7 +21,7 @@ puts
 # Tests for bubble_sort_by
 puts "\nTests for bubble_sort_by"
 
-print bubble_sort_by!(%w(Hello Saluton Oi Bonjour Hola)) { |a, b| b.length <=> a.length }
+print bubble_sort_by!(%w[Hello Saluton Oi Bonjour Hola]) { |a, b| b.length <=> a.length }
 puts
 
 nums = Array.new(20) { rand(100) }
