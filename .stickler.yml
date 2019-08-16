@@ -2,3 +2,6 @@ linters:
     rubocop:
         display_cop_names: true
         fixer: true
+
+        Metrics/LineLength:
+          Enabled: false
