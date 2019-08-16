@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 def bubble_sort!(list)
   last = list.size
   loop do
@@ -9,7 +10,8 @@ def bubble_sort!(list)
       end
       current += 1
     end
-    break if !flag
+    break unless flag
+
     last -= 1
   end; list
 end
