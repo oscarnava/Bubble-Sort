@@ -1,4 +1,4 @@
-def bubble_sort(list)
+def bubble_sort!(list)
   last = list.size
   loop do
     flag = false
@@ -10,12 +10,8 @@ def bubble_sort(list)
       end
       current += 1
     end
-    print list
-    print "\n"
     break if !flag
     last -= 1
   end
   list
 end
-
-print bubble_sort([1, 2, 5, 4])
